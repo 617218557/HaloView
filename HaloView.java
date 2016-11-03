@@ -1,5 +1,3 @@
-package com.example.yifeifeng.haloview;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
