@@ -44,7 +44,6 @@ public class HaloView extends View {
         setBackgroundColor(Color.parseColor("#1A1A1A"));
         setOffset();
         loadFlower();
-
         post(new Runnable() {
             @Override
             public void run() {
@@ -61,7 +60,6 @@ public class HaloView extends View {
         if (timer != null) {
             timer.cancel();
         }
-        recly();
         super.onDetachedFromWindow();
     }
 
